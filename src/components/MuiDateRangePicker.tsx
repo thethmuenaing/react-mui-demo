@@ -20,10 +20,8 @@ export const MuiDateRangePicker = () => {
 						<TextField {...startProps} />
 							<Box sx={{mx:2}}> to </Box>
 						<TextField {...endProps} />
-				</>
-				)
-
-				}
+					</>
+				)}
 			/>
 		</Box>
 	)
