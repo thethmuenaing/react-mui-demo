@@ -20,4 +20,12 @@ declare module "@mui/material/styles" {
 	interface PaletteOptions {
 		neutral?: PaletteColorOptions
 	}
+
+	interface SimplePaletteColorOptions {
+		darker?: string
+	}
+
+	interface PaletteColor {
+		darker?: string
+	}
 }
